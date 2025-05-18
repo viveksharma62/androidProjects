@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.LightTurn" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- Good color for a light-themed header title -->
+        <item name="android:textColorPrimary">#FF9800</item>
+    </style>
+
+    <style name="Theme.LightTurn" parent="Base.Theme.LightTurn" />
+
+    <!-- Define your colors -->
+    <color name="header_title_color">#333333</color> <!-- Dark gray for better contrast on a light background -->
+    <color name="buttonColor">#3ad952</color> <!-- A modern purple color -->
+
+    <!-- Button border color -->
+    <color name="buttonBorderColor">#009688</color> <!-- A darker purple for the border -->
+
+    <!-- Text color for the button -->
+    <color name="buttonTextColor">#FFFFFF</color> <!-- White text for better contrast -->
+</resources>

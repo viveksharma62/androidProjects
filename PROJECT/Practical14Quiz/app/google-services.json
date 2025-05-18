@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "755427816513",
+    "project_id": "practical14quiz",
+    "storage_bucket": "practical14quiz.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:755427816513:android:142359e40cee90e9c3c2c0",
+        "android_client_info": {
+          "package_name": "com.example.practical14quiz"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCJfF22SGd0OB2EX3us4eZSgnWOqlrDyI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,88 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F5F5F5"
+    tools:context=".MainActivity">
+
+    <!-- App Title -->
+    <TextView
+        android:id="@+id/app_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Weather Fetcher"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#3F51B5"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Input Field for City -->
+    <EditText
+        android:id="@+id/city_input"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter City Name"
+        android:inputType="text"
+        android:background="@drawable/input_background"
+        android:padding="12dp"
+        android:textColor="#333"
+        android:textColorHint="#999"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="16dp">
+
+        <Button
+            android:id="@+id/fetch_weather_button"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="Fetch Weather"
+            android:backgroundTint="#3F51B5"
+            android:textColor="@android:color/white"
+            android:elevation="2dp"
+            android:layout_marginEnd="8dp"/>
+
+        <Button
+            android:id="@+id/clear_button"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="Clear"
+            android:backgroundTint="#F44336"
+            android:textColor="@android:color/white"
+            android:elevation="2dp"
+            android:layout_marginStart="8dp"/>
+    </LinearLayout>
+
+    <!-- Progress Bar -->
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone" />
+
+    <!-- Weather Information -->
+    <TextView
+        android:id="@+id/weather_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Weather Info"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp"
+        android:textColor="#333"
+        android:gravity="center"
+        android:padding="16dp"
+        android:background="@drawable/card_background"
+        android:elevation="4dp" />
+</LinearLayout>
